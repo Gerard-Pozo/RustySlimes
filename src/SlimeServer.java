@@ -14,6 +14,7 @@ public class SlimeServer {
             System.out.println(result ? "1" : "0");
             System.out.flush();
         }
+        sc.close();
     }
 
     public static boolean isSlimeChunk(long worldSeed, int xPosition, int zPosition) {
